@@ -6,12 +6,11 @@
 .title{
     color: rgb(0, 0, 0);  
    
-    margin-right: 2cm;
     
 }
 span{
     font-size: 15px;
-    color:gray;
+    color:rgb(255, 255, 255);
 
 }
 .home{
@@ -23,18 +22,17 @@ a{
 }
 .login-btn { 
     display: flex;
-    justify-content: center;
+    justify-content:center;
     font-family: Hack, monospace;
-    background:gray;
-    color: #1d1d1d;
+    background:rgb(0, 0, 0);
+    color: #ffffff;
     cursor: pointer;
     font-size: 17px;
     padding: 1.5rem;
     border: 0;
-    transition: all 0.5s;
     border-radius: 10px;
     width: 130px;
-    position: relative;
+    position: inline-block;
     height: 70px;
 
     &::after {
@@ -42,7 +40,7 @@ a{
         font-family: "Font Awesome 5 Pro";
         font-size: 17px;
         position: absolute;
-        left: 90%;
+        left: 70%;
         top: 54%;
         right: 0;
         bottom: 0;
@@ -52,7 +50,7 @@ a{
     }
 
     &:hover {
-        background: #000000;
+        background: #228B22;
         transition: all 0.5s;
         border-radius: 10px;
         box-shadow: 0px 6px 15px #5e5e5e61;
@@ -67,19 +65,55 @@ a{
         }
     }
 
-
+}
+#login_btn{
+    margin-left: 2px;
 }
 .loginbutton{
     display: flex;
     justify-content: right;
-    margin-left: 3.5cm;
+    margin-left:auto;
+    margin-bottom: 15px;
+    margin-top: -70px;
 }
 .y{
-    display: inline-block;
-    display: flex;
-    justify-items: right;
-    
+justify-content: center;
+background-color: gray;
+padding-bottom: 5px;
+
 }
 .menu{
     margin-left: 60px;
+    
+    
+}
+#home_logo{
+    margin-left: 65px;
+    font-size: 20px;
+    color: #000000;
+}
+#AboutUs_logo{
+    margin-left: 70px;
+    font-size: 20px;
+    color: #000000;
+}
+#internship_logo{
+    margin-left: 80px;
+    font-size: 20px;
+    color: #000000;
+}
+#mission_logo{
+    margin-left: 80px;
+    font-size: 20px;
+    color: #000000;
+}
+#news_logo{
+    margin-left: 65px;
+    font-size: 20px;
+    color: #000000;
+}
+#contact_logo{
+    margin-left: 90px;
+    font-size: 20px;
+    color: #000000;
 }

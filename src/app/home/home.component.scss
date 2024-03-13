@@ -21,6 +21,7 @@ $smallest-breakpoint: 520px;
   padding: 2em;
   height: 100%;
   width: 100%;
+
   
 }
 .cover__content {
@@ -36,6 +37,7 @@ $smallest-breakpoint: 520px;
   color: #ffffff;
   padding: 3em; 
   margin-bottom: 4em;
+  border-radius: 8px;
   
   &__content {
     display: flex;
@@ -246,7 +248,7 @@ $headline-border-offset: 0.5em;
   color: aliceblue;
   background: linear-gradient(to right, #000000 0%, gray 100%);
   font-size: 12px;
-  
+  position: sticky;
 }
 .logo{
 
